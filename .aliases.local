@@ -1,0 +1,24 @@
+lias aliass='alias | grep'
+
+alias coverage='google-chrome coverage/index.html'
+
+alias dcb='docker-compose build'
+
+alias myprecious='sudo chown $(whoami) -R .'
+
+alias updateme='sudo apt-get update && sudo apt-get upgrade && sudo apt-get \
+dist-upgrade && sudo do-release-upgrade -d'
+
+alias cd..='cd ..'
+
+alias dcr='docker-compose run --rm --service-ports'
+
+alias drmi='docker rmi'
+
+alias dbash='docker-compose run --rm --service-ports web bash'
+
+alias dcd='docker-compose down'
+
+alias gamquick='ga && gam --no-edit'
+
+alias dcexec='docker exec -it'

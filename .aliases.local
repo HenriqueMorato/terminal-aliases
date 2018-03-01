@@ -1,4 +1,4 @@
-lias aliass='alias | grep'
+alias aliass='alias | grep'
 
 alias coverage='google-chrome coverage/index.html'
 

@@ -6,7 +6,7 @@ alias cd..='cd ..'
 alias myprecious='sudo chown $(whoami) -R .'
 
 alias updateme='sudo apt-get update && sudo apt-get upgrade && sudo apt-get \
-dist-upgrade && sudo do-release-upgrade -d'
+dist-upgrade && sudo do-release-upgrade'
 
 # Docker
 alias dcr='docker-compose run --rm --service-ports'
